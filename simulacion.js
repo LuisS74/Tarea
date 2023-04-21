@@ -19,10 +19,10 @@ let combate = function () {
         if (Limo.vidaAct <= 0) {
             break;
         }
-        ataca(Heroe, Limo);
+        ataca(Limo, Heroe);
         mostrarStats(Heroe, Limo)
     }
-    console.log(`¡Combate concluido!`)
+    console.log(`Combate finalizado`)
 }
 
 let ataca = function (ataque, recibe) {
